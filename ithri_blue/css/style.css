@@ -1,0 +1,311 @@
+/* --------- Stylesheets incorporation --------- */
+@import url("content.css");
+@import url("blocks.css");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/* --------- Layout --------- */
+html {
+	
+	
+	line-height: normal;
+	margin: 0;
+	padding: 0;
+	background: #B9D3EE ;
+		
+		
+}
+body {
+	font-family: "Helvetica", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	unicode-bidi: embed;
+	width: 960px;
+	margin: 0 auto;    background: #B9D3EE url("../img/content.jpg") repeat-y top;
+	
+}
+
+
+
+
+
+
+#xo-canvas {
+	background: url("../img/header.jpg") no-repeat;
+	width: 960px;
+	margin: 0 auto;
+}
+#xo-canvas-content {
+    text-align:justify;
+	color:#333 ;
+}
+
+}
+#xo-page {
+	padding-top: 1px;   background: transparent;
+	
+	
+}
+/* --------- Header --------- */
+#xo-header {
+	height: 120px;
+
+}
+
+
+/* --- Logo --- */
+#xo-header img.logo {
+	float:	left; 
+	padding: 9px 33px 0 0;
+	padding-left:40px;
+	padding-top:20px;
+} 
+
+/* --------- Navigation menu --------- */
+
+
+#xo-navheader {
+	height: 25px;
+	float: left; 
+	width: 960px;
+	font-family: "Helvetica", Arial, Helvetica, sans-serif;
+	font-weight: bold; 
+	padding: 0px 34px 0px 34px;
+	font-size: 1.2em;
+	
+}
+
+#xo-navheader li{
+	list-style-type: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#xo-navheader a{
+	float: left;
+	margin: 0;
+	padding: 0 0  0 8px; 
+	text-decoration: none;
+}
+#xo-navheader a :hover{
+	text-decoration: underline;
+	color:#B9D3EE;
+}
+
+
+#xo-navheader a span{
+	display: block;
+	padding: 6px 12px  4px 4px; 
+	font-weight: bold; 
+	
+}
+
+
+/*--- Top Blocks ---*/
+#xo-top-shadow {
+	
+	height: 30px;
+
+}
+
+/*============== Styles pour l'include userbar.html =================*/
+
+
+.xo-userbar form {
+	display:							inline;
+	padding:							0px;
+}
+.xo-userbar button {
+	margin: 							0px -3px;
+	border:							0px none;
+	padding:							0px;
+	background:						transparent none;
+}
+.xo-userbar button img {
+	width: 							26px;
+	height: 						26px;
+}
+.xo-userbar img {
+	width: 							26px;
+	height: 						26px;
+}
+.xo-userbar input {
+	color: 							black;
+	font-size: 						1.2em;
+	background-color: 			inherit;
+}
+
+.xo-userbar a {
+	color: 							#FF4500;
+	
+	text-decoration: 				none;
+	background-color: 			inherit;
+	
+	font-weight:					bold;
+}
+.xo-uname {
+	color: 							#87af7b;
+	font-size:						1.6em;
+	font-weight:					bold;
+	background: 					inherit;
+}
+
+
+.xo-userbar{
+	height: 32px;
+	text-align: left;
+	float: right;
+	padding: 15px 0 0 20px;
+	padding-right:50px;
+	padding-top:50px;
+}
+
+
+
+/* --------- Content module page --------- */
+#xo-content {
+  padding : 8px;
+  text-align : justify;
+    
+}
+
+/* --------- Footer --------- */
+#xo-footer {  
+	
+	background-color: transparent;
+	background: url("../img/footer.jpg") no-repeat center bottom;
+	width: 960px;
+	height:90px;
+	
+}
+
+.xo-foottext{
+	font-size: 1.1em;
+	color: #808080;
+	padding: 0px 20px;
+	vertical-align: middle;
+	text-align: center;	
+	padding-top:40px;
+}
+.xo-foottext a{
+	color: #2771BA;
+	text-decoration: none;
+}
+.xo-foottext a:hover{
+	color: #2771BA;
+	text-decoration: underline;
+}
+
+/* --------- Block main menu --------- */
+#mainmenu {
+	font-size : 1.1em;
+	background : url("../img/06.jpg") no-repeat bottom;
+	padding-bottom:20px;
+	
+}
+#mainmenu a {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  display: block;
+  margin: 0;
+  padding: 6px;
+  font-size: 1em; 
+  font-weight:					bold;
+	
+}
+#mainmenu a:hover {}
+#mainmenu a.menuTop {
+padding-left: 15px;
+
+
+}
+#mainmenu a.menuMain {
+padding-left: 15px;
+font-size: 1em; 
+font-weight:					bold;
+
+
+}
+#mainmenu a.menuSub {
+  padding-left: 20px; color:#575757 ;
+  font-size: .9em;
+}
+#mainmenu a.menuSub:hover {}
+
+/* --------- Block user menu --------- */
+#usermenu {
+font-size: 1em; 
+padding-left: 15px;
+background : url("../img/06.jpg") no-repeat bottom;
+
+}
+#usermenu a {
+  display: block;
+  margin: 0; 
+  padding: 6px;
+}
+#usermenu a:hover {}
+#usermenu a.menuTop {}
+
+
+.rss { float: right; padding: 5px 5px 0 0;}
+.rss a:hover {	text-decoration: none;}
+
+/* --------- System module -------- */
+
+/* --- system_redirect ---*/
+
+#xo-redirect {
+
+	margin: 10px 80px 10px 80px;
+
+	background-color: #fafafa;
+
+	padding: 8px;
+
+	line-height: 1.4em;
+
+	text-align: center;
+
+	border: 1px solid #ddd;
+
+}
+
+/* --- system_siteclosed --- */
+
+#xo-siteclosed {
+
+	margin: 10px 200px 10px 200px;
+
+	background-color: #fafafa;
+
+	padding: 8px;
+
+	line-height: 1.6em;
+
+	text-align: center;
+
+	border: 1px solid #ddd;
+
+}
+
+#xo-siteclosed strong {
+
+	display: block;
+
+	font-style: normal;
+
+}
+
+#xo-siteclosed label {
+
+	font-size: .9em;
+
+	font-weight: normal;
+
+}
+
+#xo-siteclosed input {margin: 2px;}
+
+

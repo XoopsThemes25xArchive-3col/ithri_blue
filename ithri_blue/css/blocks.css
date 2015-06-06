@@ -1,0 +1,92 @@
+/* --------- Left columns --------- */
+#xo-canvas-leftcolumn { 
+	width : 170px;
+	padding-top:4px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;	
+}
+
+#xo-canvas-leftcolumn h3.xo-blocktitle { 
+   
+    padding: 4px;  
+	font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+	font-weight: bold; 
+    height:30px;
+    padding:3px;		
+	
+    
+}
+#xo-canvas-leftcolumn .xo-blockcontent { 
+	padding-bottom: 10px;
+	padding-left:2px;
+	padding-top: 10px;
+	
+}
+
+
+
+/* --------- Right columns --------- */
+#xo-canvas-rightcolumn {
+	
+	width : 170px;
+	
+	color:#FF7F00;
+}
+#xo-canvas-rightcolumn h3.xo-blocktitle {
+	
+	margin-top: 0;
+	
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	
+	
+}
+#xo-canvas-rightcolumn .xo-blockcontent { 
+	color: #666666;
+	padding:10px;
+	
+}
+
+/* --------- Center blocks --------- */
+#xo-page .xo-block {
+  margin: 5px;
+ 
+ 
+}
+#xo-topcenterblocks, #xo-bottomcenterblocks {}
+#xo-topcenterblocks h3.xo-blocktitle, #xo-bottomcenterblocks h3.xo-blocktitle {
+  margin: 5px;
+  padding-left: 20px;
+  color :#458B00;
+  font-weight: bold;
+  background: 					url("../img/h2.png") no-repeat;
+  font-family: Helvetica,sans-serif;
+  
+}
+#xo-topcenterblocks .xo-blockcontent, #xo-bottomcenterblocks .xo-blockcontent {
+  padding: 5px 8px 8px 8px;
+  margin-bottom: 2px;
+  line-height: 1.3em;
+  text-align: justify;
+}
+#xo-topleftblocks, #xo-bottomleftblocks, #xo-toprightblocks, #xo-bottomrightblocks {width : 49.5%;}
+#xo-topleftblocks h3.xo-blocktitle, #xo-bottomleftblocks h3.xo-blocktitle,
+#xo-toprightblocks h3.xo-blocktitle, #xo-bottomrightblocks h3.xo-blocktitle {
+  margin: 5px;
+  padding-left: 20px;
+  color: #458B00;
+  font-weight: bold;
+  background: 					url("../img/h2.png") no-repeat;
+  font-family: Helvetica,sans-serif;
+}
+#xo-topleftblocks .xo-blockcontent, #xo-toprightblocks .xo-blockcontent,
+#xo-bottomleftblocks .xo-blockcontent, #xo-bottomrightblocks .xo-blockcontent {
+  margin-bottom: 2px;
+  padding: 5px 8px 8px 8px;
+  line-height: 1.3em;
+  text-align: justify;  
+}
+
+
